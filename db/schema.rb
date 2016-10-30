@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161027220749) do
+ActiveRecord::Schema.define(version: 20161030231036) do
 
   create_table "order_items", force: :cascade do |t|
     t.integer  "product_id"
@@ -46,11 +46,12 @@ ActiveRecord::Schema.define(version: 20161027220749) do
 
   create_table "products", force: :cascade do |t|
     t.string   "name"
-    t.decimal  "price",      precision: 12, scale: 3
+    t.decimal  "price",           precision: 12, scale: 3
     t.boolean  "active"
     t.string   "size"
-    t.datetime "created_at",                          null: false
-    t.datetime "updated_at",                          null: false
+    t.datetime "created_at",                               null: false
+    t.datetime "updated_at",                               null: false
+    t.string   "paypal_add_code"
   end
 
 end
