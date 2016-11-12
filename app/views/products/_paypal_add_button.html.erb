@@ -1,10 +1,22 @@
 <% if params[:id] == "1" %>
 
+<div class="product-photo">
+	<img class="pic img-responsive" src="https://s3-us-west-2.amazonaws.com/lelapindoux/TEST+IMAGE.jpg" alt="Market" width="1000">
+</div>
+
+<div class="product-description">
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque imperdiet arcu eu rhoncus. Cras eros massa, euismod quis enim eget, vehicula condimentum lacus. Integer euismod venenatis arcu, sit amet porta urna consectetur id. Duis nec gravida erat. Quisque enim nisl, varius eu gravida in, volutpat non mauris. Pellentesque at tortor augue. Sed nibh mi, porttitor at aliquet in, mattis in erat. Nullam ipsum risus, rutrum sed augue at, feugiat condimentum lectus. Curabitur in lacus hendrerit erat blandit ultricies. Duis pretium vitae lectus bibendum ullamcorper. Praesent eros nulla, sodales eu rhoncus cursus, imperdiet a nisl. Vivamus placerat sed velit vitae iaculis. Aliquam commodo in est eu tincidunt. Morbi bibendum diam at diam gravida suscipit. Fusce tincidunt augue eget lacus ullamcorper venenatis.
+	</p>
+</div>
+
+
+
 <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="69ND3ZGC23NGL">
 <table>
-<tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+<tr><td><input type="hidden" name="on0" value="The small price to pay:">The small price to pay:</td></tr><tr><td><select name="os0">
 	<option value="Small">Small $19.50 USD</option>
 	<option value="Medium">Medium $19.50 USD</option>
 	<option value="Large">Large $19.50 USD</option>
@@ -14,6 +26,7 @@
 <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
+
 
 <% else %>
   <p>BUTTON DOESN'T MATCH PRODUCT</p>
