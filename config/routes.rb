@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'static_pages/about'
+
+  get 'static_pages/contact'
+
+  get 'static_pages/featured'
+
+  get 'static_pages/landing_page'
+
+  get 'static_pages/thank_you'
+
   get 'order_items/create'
 
   get 'order_items/update'
