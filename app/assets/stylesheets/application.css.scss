@@ -228,7 +228,7 @@ body {
 }
 
 .img1 {
-  background: asset-data-url("https://s3.amazonaws.com/slaveunitapparel5/Website+Images/drumsyn.jpg");
+  background: url("https://s3.amazonaws.com/slaveunitapparel5/Website+Images/drumsyn.jpg");
   z-index: 1;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -527,7 +527,7 @@ body {
 
 /* ABOUT LOGO GLITCH */
 .about-logo {
-  background: asset-data-url("https://s3.amazonaws.com/slaveunitapparel5/Website+Images/logo-big-glitch.jpg") center;
+  background: url("https://s3.amazonaws.com/slaveunitapparel5/Website+Images/logo-big-glitch.jpg") center;
   background-repeat: no-repeat;
   margin-top: 50em;
   margin-bottom: 50em;
@@ -551,7 +551,7 @@ body {
 /* CONTACT */
 @media screen and (min-width: 376px) {
   .contact-wrapper {
-    background: asset-data-url("https://s3.amazonaws.com/slaveunitapparel5/Website+Images/vigan+bw3.jpg");
+    background: url("https://s3.amazonaws.com/slaveunitapparel5/Website+Images/vigan+bw3.jpg");
     background-size: cover;
     background-position: center center;
     height: 1100px;
@@ -561,7 +561,7 @@ body {
 
 @media screen and (max-width: 375px) {
   .contact-wrapper {
-    background: asset-data-url("https://s3.amazonaws.com/slaveunitapparel5/Website+Images/vigan+bw+sm2.jpg");
+    background: url("https://s3.amazonaws.com/slaveunitapparel5/Website+Images/vigan+bw+sm2.jpg");
     background-size: cover;
     background-position: center center;
     height: 627px;
@@ -571,7 +571,7 @@ body {
 
 /* CONTACT LOGO GLITCH */
 .contact-logo {
-  background: asset-data-url("https://s3.amazonaws.com/slaveunitapparel5/Website+Images/logo-big-glitch.jpg") center;
+  background: url("https://s3.amazonaws.com/slaveunitapparel5/Website+Images/logo-big-glitch.jpg") center;
   background-repeat: no-repeat;
 }
 
