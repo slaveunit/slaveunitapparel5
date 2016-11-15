@@ -1,2 +1,27 @@
-<h1>StaticPages#landing_page</h1>
-<p>Find me in app/views/static_pages/landing_page.html.erb</p>
+ <div class="index-wrapper">
+
+	<!-- HERO IMAGE -->
+	<div class="top visible-lg-block visible-md-block">
+		<div class="layer img1"></div>
+	</div>
+	<div class="layer img2 visible-lg-block visible-md-block"></div>
+	<div class="overlay visible-lg-block visible-md-block">
+		  	<%= image_tag ("https://s3.amazonaws.com/slaveunitapparel5/Website+Images/logo-big-no-border.jpg") %> 
+		<div class="overlay-button visible-lg-block visible-md-block">
+		  	<a href="/static_pages/featured/"><button type="button" class="btn btn-danger">Enter the Void</button></a>
+		</div><!-- end overlay -->
+	</div><!-- end top -->
+	<!-- END HERO IMAGE -->
+
+	<!--HERO IMAGE MOBILE -->
+	<div class="hero-mobile visible-xs-block visible-sm-block">
+	  <%= image_tag("https://s3.amazonaws.com/slaveunitapparel5/Website+Images/SU+Logo+Hero+Mobile.jpg", :class => "img-responsive") %>
+	  <div class="overlay-button visible-xs-block visible-sm-block">
+		  	<div class="landing-button-sm">
+			  	<a href="/static_pages/featured/"><button type="button" class="btn btn-danger">Enter the Void</button></a>
+			</div>
+		</div><!-- end overlay -->
+	</div>
+	<!--END HERO IMAGE MOBILE -->
+
+</div>
