@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161030231036) do
+ActiveRecord::Schema.define(version: 20161116013724) do
 
   create_table "order_items", force: :cascade do |t|
     t.integer  "product_id"
@@ -52,6 +52,7 @@ ActiveRecord::Schema.define(version: 20161030231036) do
     t.datetime "created_at",                               null: false
     t.datetime "updated_at",                               null: false
     t.string   "paypal_add_code"
+    t.string   "img_link"
   end
 
 end
