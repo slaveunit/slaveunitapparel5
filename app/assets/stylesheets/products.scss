@@ -4,11 +4,16 @@
 
 .product-index {
     padding-top: 5%;
-    padding-bottom: 5%;
+    // This solves scrolling issue due to parallax.
+    padding-bottom: 1000px;
+    overflow: scroll;
+    height: 1050px;
 }
+
 
 .product-show {
     padding-top: 5%;
+    // This solves scrolling issue due to parallax.
     padding-bottom: 1000px;
     overflow: scroll;
     height: 1050px;
