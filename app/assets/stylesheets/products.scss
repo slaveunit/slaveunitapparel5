@@ -10,6 +10,11 @@
     height: 1050px;
 }
 
+.product-wrapper {
+        width: 90%;
+    margin: auto;
+}
+
 
 .product-show {
     padding-top: 5%;
@@ -23,8 +28,12 @@
     color: black;
 }
 
+
+
 .product-name {
     font-family: 'Share Tech Mono', sans-serif;
+    color: black;
+    font-size: 1.25em;
 }
 
 .product-paypal-button {
