@@ -5,23 +5,25 @@
 .product-index {
     padding-top: 5%;
     // This solves scrolling issue due to parallax.
-    padding-bottom: 1000px;
+    padding-bottom: 40em;
     overflow: scroll;
-    height: 1050px;
+   
 }
 
 .product-wrapper {
-        width: 90%;
+    width: 90%;
     margin: auto;
 }
+
+
 
 
 .product-show {
     padding-top: 5%;
     // This solves scrolling issue due to parallax.
-    padding-bottom: 1000px;
     overflow: scroll;
-    height: 1050px;
+    height: 800px;
+     padding-bottom: 40em;
 }
 
 .product-show p {
@@ -30,13 +32,32 @@
 
 
 
-.product-name {
+.product-name-index {
     font-family: 'Share Tech Mono', sans-serif;
     color: black;
     font-size: 1.25em;
+
+}
+
+.product-name-show h2 {
+    font-family: 'Michroma', sans-serif;
+    color: red;
+    font-size: 2.25em;
+
 }
 
 .product-paypal-button {
      padding-bottom: 1000px;
 }
 
+.product-photo {
+    width: 90%;
+}
+
+.product-availability p {
+    color: red;
+}
+
+.view-cart {
+    float: right;
+}

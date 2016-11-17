@@ -1,5 +1,17 @@
 
+<center>
+    <div class="product-name-show">
+<h2><%= @product.name %></h2>
+</div>
 
-<h4><%= @product.name %></h4>
+<div class="product-photo">
+    <%= image_tag(@product.img_link, class: "img-responsive") %>
+</div>
+</center>
+
+<h4>The Small Price To Pay: <span style="color: green"><%= number_to_currency @product.price %></span></h4>
+
+
+
 
 <%= render "paypal_add_button", product: @product %>
