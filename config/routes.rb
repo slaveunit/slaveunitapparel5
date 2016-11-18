@@ -20,7 +20,8 @@ Rails.application.routes.draw do
   get 'products/index'
 
 
-
+# emailer in dev mode
+  post 'static_pages/thank_you'
 
 
   # :show added to display product show

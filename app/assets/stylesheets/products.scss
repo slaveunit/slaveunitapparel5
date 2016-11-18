@@ -7,12 +7,13 @@
     // This solves scrolling issue due to parallax.
     padding-bottom: 40em;
     overflow: scroll;
-   
+    height: 900px;
 }
 
 .product-wrapper {
     width: 90%;
     margin: auto;
+    
 }
 
 
@@ -28,6 +29,24 @@
 
 .product-show p {
     color: black;
+}
+
+
+.product-wrapper h1 {
+  font-family: 'Share Tech Mono', sans-serif;
+  font-size: 600%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.product-wrapper h2 {
+   font-family: 'Share Tech Mono', sans-serif; 
+   margin-top: 0;
+}
+
+.index-header {
+    text-align: center;
+    padding-bottom: 5%;
 }
 
 
@@ -58,6 +77,3 @@
     color: red;
 }
 
-.view-cart {
-    float: right;
-}
