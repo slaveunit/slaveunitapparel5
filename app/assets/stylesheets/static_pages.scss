@@ -251,15 +251,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
 /* CAROUSEL */
 .carousel {
   margin-top: 10%;
@@ -377,18 +368,12 @@ body {
 
 /* CONTACT */
 
-
 .contact-wrapper {
   padding-top: 5%;
   padding-bottom: 50%;
   overflow: scroll;
   height: 900px;
 }
-
-
-
-
-
 
 @media screen and (min-width: 376px) {
   .contact-wrapper {
@@ -510,3 +495,44 @@ padding-top: 10%;
 
 
 /* END CONTACT */
+
+
+
+
+
+
+
+
+
+/* BLOG */
+
+.blog-wrapper {
+  background-color: black;
+  padding-top: 5%;
+  padding-bottom: 50%;
+  overflow: scroll;
+  height: 900px;
+}
+
+.blog-inner {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+    
+.blog-wrapper h1 {
+  font-family: 'Michroma', sans-serif;
+  
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.blog-inner h2 {
+  color: white;
+  text-align: left;
+  padding-top: 5%;
+}
+
+.blog-inner p {
+  text-align: left;
+}
