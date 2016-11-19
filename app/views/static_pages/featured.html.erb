@@ -18,15 +18,11 @@
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
         <ol class="carousel-indicators">
-
-<!-- Make number of products match number of indicators in the carousel -->
           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-  <!-- in brackets, started at 1 to skip first product -->
-            <% @products[1..50].each do |product| %>
-              <li data-target="#carousel-example-generic" data-slide-to="1" ></li>
-            <% end %>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
         </ol>
-<!-- Make number of products match number of indicators in the carousel -->
+
 
   <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
@@ -61,21 +57,21 @@
   		<h1>Featured Product:</h1>
   		<h2><%= @featured_product.name %></h2>	  	
   					
-  			<h3>What you see from the outside the outside:</h3>	  		
+  			<h3>What you see from the outside:</h3>	  		
   	  	<%= image_tag @featured_product.img_link, :class => "img-responsive" %>
-  		<h4>Coming sooner or later</h4>	
-      <a href="/products"><button type="button" class="btn btn-danger">PREVIEW WAVE I</button></a>
+  	
+      <a href="/products"><button type="button" class="btn btn-danger">SEE WAVE I</button></a>
   	</div>
 
     <div class="featured-main-sm visible-sm-block visible-xs-block">
       <h1>Featured Product:</h1>
       <h2><%= @featured_product.name %></h2>      
              
-        <h3>What you see from the outside the outside:</h3>       
+        <h3>What you see from the outside:</h3>       
         <%= image_tag @featured_product.img_link, :class => "img-responsive" %>
-      <h4>Coming sooner or later</h4> 
+      
       <div class="featured-button-sm">
-        <a href="/products"><button type="button" class="btn btn-danger">PREVIEW WAVE I</button></a>
+        <a href="/products"><button type="button" class="btn btn-danger">SEE WAVE I</button></a>
       </div>
     </div>
 
