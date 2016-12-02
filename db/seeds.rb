@@ -9,7 +9,7 @@
 
 
 Product.delete_all
-Product.create! id: 1, name: "The School Seal Tee", size: "Medium", price: 20.00, active: true, img_link: "https://s3.amazonaws.com/slaveunitapparel5/school-seal.jpg"
+Product.create! id: 1, name: "The School Seal Tee", size: "Medium", price: 20.00, active: true, img_link: "https://s3.amazonaws.com/slaveunitapparel5/school-seal.jpg", combo_img_link: "https://s3.amazonaws.com/slaveunitapparel5/combo-img-test.jpg"
 Product.create! id: 2, name: "The Beginning Is The End Tee", size: "Medium", price: 20.00, active: true, img_link: "https://s3.amazonaws.com/slaveunitapparel5/end-beginning-end.jpg"
 Product.create! id: 3, name: "The SUA Classic Logo Tee", size: "Medium", price: 20.00, active: true, img_link: "https://s3.amazonaws.com/slaveunitapparel5/classic-logo.jpg"
 
