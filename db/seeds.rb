@@ -9,9 +9,9 @@
 
 
 Product.delete_all
-Product.create! id: 1, name: "The School Seal Tee", size: "Medium", price: 20.00, active: true, img_link: "https://s3.amazonaws.com/slaveunitapparel5/SCHOOL+SEAL+TEE.jpg", combo_img_link: "https://s3.amazonaws.com/slaveunitapparel5/SCHOOL-LOGO-COMBO-3.jpg", combo_img_link_sm: "https://s3.amazonaws.com/slaveunitapparel5/SCHOOL-LOGO-COMBO-SM.jpg"
-Product.create! id: 2, name: "The Beginning Is The End Tee", size: "Medium", price: 20.00, active: true, img_link: "https://s3.amazonaws.com/slaveunitapparel5/MOCKUP+VIT+3.jpg", combo_img_link: "https://s3.amazonaws.com/slaveunitapparel5/MOCKUP+VIT+3+COMBO.jpg", combo_img_link_sm: "https://s3.amazonaws.com/slaveunitapparel5/MOCKUP+VIT+3+COMBO.jpg"
-Product.create! id: 3, name: "The SUA Classic Logo Tee", size: "Medium", price: 20.00, active: true, img_link: "https://s3.amazonaws.com/slaveunitapparel5/MOCKUP+LOGO+CLASSIC+2.jpg", combo_img_link: "https://s3.amazonaws.com/slaveunitapparel5/MOCKUP+LOGO+CLASSIC+2+COMBO.jpg", combo_img_link_sm: "https://s3.amazonaws.com/slaveunitapparel5/MOCKUP+LOGO+CLASSIC+2+COMBO.jpg"
+Product.create! id: 1, name: "The School Seal Tee", size: "Medium", price: 22.92, active: true, img_link: "https://s3.amazonaws.com/slaveunitapparel5/SCHOOL+SEAL+TEE.jpg", combo_img_link: "https://s3.amazonaws.com/slaveunitapparel5/SCHOOL-LOGO-COMBO-3.jpg", combo_img_link_sm: "https://s3.amazonaws.com/slaveunitapparel5/SCHOOL-LOGO-COMBO-SM.jpg"
+Product.create! id: 2, name: "The Beginning Is The End Tee", size: "Medium", price: 0.00, active: true, img_link: "https://s3.amazonaws.com/slaveunitapparel5/MOCKUP+VIT+3.jpg", combo_img_link: "https://s3.amazonaws.com/slaveunitapparel5/MOCKUP+VIT+3+COMBO.jpg", combo_img_link_sm: "https://s3.amazonaws.com/slaveunitapparel5/MOCKUP+VIT+3+COMBO.jpg"
+Product.create! id: 3, name: "The SUA Classic Logo Tee", size: "Medium", price: 0.00, active: true, img_link: "https://s3.amazonaws.com/slaveunitapparel5/MOCKUP+LOGO+CLASSIC+2.jpg", combo_img_link: "https://s3.amazonaws.com/slaveunitapparel5/MOCKUP+LOGO+CLASSIC+2+COMBO.jpg", combo_img_link_sm: "https://s3.amazonaws.com/slaveunitapparel5/MOCKUP+LOGO+CLASSIC+2+COMBO.jpg"
 
 
 
