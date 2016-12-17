@@ -3,9 +3,14 @@
 <h2><%= @product.name %></h2>
 </div>
 
-<div class="product-photo">
+<div class="product-photo visible-lg-block visible-md-block">
     <%= image_tag(@product.combo_img_link, class: "img-responsive") %>
 </div>
+
+<div class="product-photo visible-xs-block visible-sm-block">
+    <%= image_tag(@product.combo_img_link_sm, class: "img-responsive") %>
+</div>
+
 </center>
 
 
