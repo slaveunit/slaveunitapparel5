@@ -1,7 +1,6 @@
 <center>
     <div class="product-name-show">
 <h2><%= @product.name %></h2>
-<h4>The Small Price To Pay: <span style="color: green"><%= number_to_currency product.price %></span></h4>
 </div>
 
 <div class="product-photo visible-lg-block visible-md-block">
@@ -9,7 +8,6 @@
 </div>
 
 <div class="product-photo visible-xs-block visible-sm-block">
-    <h4>The Small Price To Pay: <span style="color: green"><%= number_to_currency product.price %></span></h4>
     <%= image_tag(@product.combo_img_link_sm, class: "img-responsive") %>
 </div>
 
